@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: #f1c40f;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.title {
+    text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.quote {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.box {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.about, .strategy, .mission {
+  background-color: #f9f9f9;
+}
+
+.mission {
+  background-color: #333;
+  color: white;
+}
+
+.credit {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+}
